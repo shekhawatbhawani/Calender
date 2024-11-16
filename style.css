@@ -1,0 +1,44 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: purple;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ .container {
+     width: 30%;
+     margin: auto;
+     border: 2px solid red;
+     text-align: center;
+     background-color: white;
+     color: black;
+ }
+
+ p {
+     padding: 10px;
+ }
+
+ .month {
+     background-color: red;
+     font-size: 2rem;
+ }
+
+ .date {
+     font-size: 2rem;
+ }
+
+ @media (max-width:500px) {
+    .month{
+        font-size: 1rem;
+    }
+    .date{
+        font-size: 1rem;
+    }
+ }
